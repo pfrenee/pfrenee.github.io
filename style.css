@@ -1,0 +1,126 @@
+* {
+  /* border-top: 10px solid #1098ad; */
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #444;
+  /* font-family: Open Sans; */
+  font-family: Montserrat;
+  /* font-family: Quicksand; */
+
+  font-size: 15px;
+  margin-left: 50px;
+  /* border-top: 2px solid #888888; */
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-header {
+  font-family: Copperplate;
+  text-align: center;
+  padding: 30px;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: Nothing You Could Do;
+  color: #6d6d6d;
+  /* text-transform: uppercase; */
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: Georgia;
+  font-weight: lighter;
+  /* font-family: Nothing You Could Do; */
+  color: #444;
+  /* text-transform: uppercase; */
+  margin-bottom: 10px;
+}
+
+img + h3 {
+  padding-top: 30px;
+}
+
+h3 + p {
+  padding-top: 10px;
+}
+
+a:link {
+  color: #6d6d6d;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #6d6d6d;
+}
+
+a:hover {
+  color: #333;
+  font-weight: normal;
+  /* text-decoration: underline dotted; */
+}
+
+a:active {
+  /* background-color: black; */
+  font-style: italic;
+}
+
+nav a:link {
+  /* background-color: orangered;
+    margin: 20px;
+    padding: 20px;
+  
+    display: block; */
+
+  /* color: #8b8b8b; */
+  margin-right: 100px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  padding-bottom: 15px;
+}
+
+p::first-letter {
+  font-size: 22px;
+  /* font-weight: bold; */
+  /* padding-left: 15px; */
+}
+
+.banner {
+  width: 200;
+  /* height: 200; */
+}
+
+.footer {
+  font-size: 14px;
+  color: #999;
+  padding: 20px 0;
+}
+
+.footer::first-letter {
+  font-size: 14px;
+}
