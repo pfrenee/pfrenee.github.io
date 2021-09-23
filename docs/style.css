@@ -1,126 +1,183 @@
 * {
-  /* border-top: 10px solid #1098ad; */
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
 body {
   color: #444;
-  /* font-family: Open Sans; */
   font-family: Montserrat;
-  /* font-family: Quicksand; */
-
   font-size: 15px;
-  margin-left: 50px;
-  /* border-top: 2px solid #888888; */
-}
-
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.main-header {
-  font-family: Copperplate;
-  text-align: center;
-  padding: 30px;
-  font-size: 18px;
-}
-
-h1 {
-  font-size: 60px;
-  text-transform: uppercase;
-  font-weight: lighter;
-  margin: 10px 0;
-}
-
-h2 {
-  font-size: 20px;
-  font-family: Nothing You Could Do;
-  color: #6d6d6d;
-  /* text-transform: uppercase; */
-  font-weight: lighter;
-  margin-bottom: 50px;
-}
-
-h3 {
-  font-size: 30px;
-  font-family: Georgia;
-  font-weight: lighter;
-  /* font-family: Nothing You Could Do; */
-  color: #444;
-  /* text-transform: uppercase; */
-  margin-bottom: 10px;
-}
-
-img + h3 {
-  padding-top: 30px;
-}
-
-h3 + p {
-  padding-top: 10px;
+  background-color: #f9d9af;
 }
 
 a:link {
-  color: #6d6d6d;
+  color: #30373f;
   text-decoration: none;
 }
 
 a:visited {
-  color: #6d6d6d;
+  color: #30373f;
 }
 
 a:hover {
-  color: #333;
-  font-weight: normal;
+  text-shadow: 2px 2px rgba(230, 166, 102, 0.4);
   /* text-decoration: underline dotted; */
 }
 
 a:active {
-  /* background-color: black; */
   font-style: italic;
-}
-
-nav a:link {
-  /* background-color: orangered;
-    margin: 20px;
-    padding: 20px;
-  
-    display: block; */
-
-  /* color: #8b8b8b; */
-  margin-right: 100px;
-  margin-bottom: 30px;
-  display: inline-block;
-}
-
-nav a:link:last-child {
-  margin-right: 0;
 }
 
 p {
   font-size: 18px;
   line-height: 1.5;
-  padding-bottom: 15px;
+  margin: 30px 0;
 }
 
-p::first-letter {
-  font-size: 22px;
-  /* font-weight: bold; */
-  /* padding-left: 15px; */
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  /* width: 80vh; */
 }
 
-.banner {
-  width: 200;
-  /* height: 200; */
+header {
+  /* background  */
+
+  height: 100vh;
+  position: relative;
+
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.7),
+      10%,
+      rgba(34, 34, 34, 0.05),
+      20%,
+      rgba(34, 34, 34, 0.05)
+    ),
+    url(img/bg-l.jpg);
+
+  background-size: cover;
 }
 
-.footer {
-  font-size: 14px;
-  color: #999;
+nav {
+  /* font-size: 50px; */
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: nowrap;
+  width: 650px;
+}
+
+.menu-item {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  color: #ebcbad;
+  font-family: Playfair Display;
+  font-family: Cormorant SC;
+  /* font-family: Lora; */
+  text-transform: uppercase;
+  letter-spacing: -0.7px;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px rgba(100, 100, 100, 0.6);
+  /* padding: 20px 40px; */
+}
+
+h2 {
+  font-weight: 100px;
+  font-size: 25px;
+  font-family: Nothing You Could Do;
+  /* font-family: Lora; */
+  color: rgb(251, 239, 218, 0.6);
+  /* text-transform: uppercase; */
+  font-weight: lighter;
   padding: 20px 0;
 }
 
-.footer::first-letter {
+.hero-container {
+  width: 1200px;
+  /* width: 80vh; */
+  /* In relation to ELEMENT size */
+  transform: translate(0%, 30%);
+}
+
+.hero-container-inner {
+  width: 400px;
+}
+
+.hero-btn:link,
+.hero-btn:visited {
+  background-color: #edc070;
+
+  color: #30373f;
+  font-size: 20px;
+  padding: 10px 20px;
+
+  display: inline-block;
+  /* margin-left: 40px; */
+  margin-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px rgba(230, 166, 102, 0.5);
+}
+.hero-btn:hover {
+  background-color: #e6a666;
+  /* background-color: #917369; */
+
+  color: #02173c;
+  color: #fbefda;
+  box-shadow: 0px 10px 15px 0px rgba(230, 166, 102, 0.5);
+}
+
+.hero-btn:active {
+  background-color: #e6a666;
+  /* background-color: #917369; */
+
+  color: #02173c;
+  color: #fbefda;
+  box-shadow: 0px 5px 10px 0px rgba(230, 166, 102, 0.5);
+  font-style: normal;
+}
+
+.main-header {
+  /* font-family: Copperplate; */
+
+  text-align: center;
+  padding: 0;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #272829;
+}
+
+nav a:link,
+nav a:visited {
+  font-size: 15px;
+  color: #fbefda;
+  flex: 1;
+  /* display: inline-block; */
+}
+
+.story {
+  /* margin-top: 50px; */
+}
+
+.footer p {
   font-size: 14px;
+  color: #666;
+  /* padding: 10px 0; */
 }
