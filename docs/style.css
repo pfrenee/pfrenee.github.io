@@ -6,12 +6,17 @@
 
 body {
   color: #444;
-  font-family: Montserrat;
+  color: #303b37;
+
+  /* font-family: Montserrat; */
+  font-family: Lora;
+
   font-size: 15px;
-  background-color: #f9d9af;
+  background-color: #c7bba2;
 }
 
 a:link {
+  font-family: Montserrat;
   color: #30373f;
   text-decoration: none;
 }
@@ -132,7 +137,6 @@ h2 {
   background-color: #e6a666;
   /* background-color: #917369; */
 
-  color: #02173c;
   color: #fbefda;
   box-shadow: 0px 10px 15px 0px rgba(230, 166, 102, 0.5);
 }
@@ -141,7 +145,6 @@ h2 {
   background-color: #e6a666;
   /* background-color: #917369; */
 
-  color: #02173c;
   color: #fbefda;
   box-shadow: 0px 5px 10px 0px rgba(230, 166, 102, 0.5);
   font-style: normal;
@@ -157,13 +160,6 @@ h2 {
   margin-bottom: 10px;
 }
 
-h3 {
-  font-size: 48px;
-  text-transform: uppercase;
-  font-weight: lighter;
-  color: #272829;
-}
-
 nav a:link,
 nav a:visited {
   font-size: 15px;
@@ -173,7 +169,7 @@ nav a:visited {
 }
 
 .story {
-  /* margin-top: 50px; */
+  font-size: 22px;
 }
 
 .footer p {
