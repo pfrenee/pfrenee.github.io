@@ -33,7 +33,7 @@
 
   .main-heading {
     font-size: 3.6rem;
-    letter-spacing: -0.02rem;
+    letter-spacing: -0.4px;
   }
   .hero-text-box {
     max-width: 30rem;
@@ -57,7 +57,6 @@
 
   .main-heading {
     padding-top: 7rem;
-    letter-spacing: -0.03rem;
   }
 
   .section-hero {
@@ -66,28 +65,57 @@
   }
 }
 
+.main-nav {
+  padding: 0 5vw;
+}
+
+.nav-list {
+  gap: 5rem;
+}
 /**************************/
 /* BELOW 944px (Tablets) */
 /**************************/
 
 @media (max-width: 59em) {
+  html {
+    font-size: 8px;
+  }
+
   .container {
     max-width: 100rem;
   }
 
   .logo {
-    padding-top: 3rem;
+    padding-top: 5rem;
     width: 10rem;
     height: auto;
   }
 
   .main-heading {
-    padding-top: 3rem;
-    letter-spacing: -0.03rem;
+    padding-top: 5rem;
+    letter-spacing: -0.3px;
   }
 
   .section-hero {
     background-position: -30vmax;
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.7),
+        10%,
+        rgba(34, 34, 34, 0.05),
+        20%,
+        rgba(161, 56, 56, 0.05)
+      ),
+      url(../img/bg-w.jpg);
+    background-size: cover;
+  }
+
+  .main-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    height: 7.4rem;
+    background-image: none;
   }
 
   .nav-list {
@@ -163,7 +191,6 @@
   }
   .main-heading {
     padding-top: 6rem;
-    letter-spacing: -0.03rem;
   }
 
   .section-hero {
@@ -187,6 +214,6 @@
   }
   .main-heading {
     padding-top: 16rem;
-    letter-spacing: -0.03rem;
+    letter-spacing: -0.2px;
   }
 }
