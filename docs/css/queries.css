@@ -17,96 +17,54 @@
 /**************************/
 
 @media (max-width: 100em) {
-  .container {
-    max-width: 130rem;
-  }
 }
-
 /**************************/
 /* BELOW 1344px (Smaller desktops) */
 /**************************/
 
 @media (max-width: 84em) {
-  .container {
-    max-width: 110rem;
-  }
-
-  .main-heading {
-    font-size: 4rem;
-    padding-top:2rem;
-    /* letter-spacing: -0.4px; */
-  }
-
-  .section-hero{
-
-    padding-left:5rem;
-  }
-  .hero-text-box {
-    max-width: 30rem;
-  }
 }
 
-/**************************/
-/* BELOW 1200px (Landscape Tablets) */
-/**************************/
+/*************************************************/
+/* BELOW 1200px (Landscape Tablets, iPad Pro)    */
+/*************************************************/
 
 @media (max-width: 75em) {
   html {
-    font-size: 9px;
+    /* font-size: 9px; */
+    font-size: 56.25%;
   }
 
-
-  .logo {
-    padding-top: 8rem;
-    width: 18rem;
-    height: auto;
+  /* Decrease nav padding */
+  .main-nav {
+    padding: 0 5vw;
   }
 
-  .main-heading {
-    padding-top: 1rem;
+  .nav-list {
+    gap: 5rem;
   }
-
-.section-hero{
-  /* padding-left:0rem; */
-  background-position: center;
 }
 
-.main-nav {
-  padding: 0 5vw;
-}
-
-.nav-list {
-  gap: 5rem;
-}
-/**************************/
-/* BELOW 944px (Tablets) */
-/**************************/
+/**********************************/
+/* BELOW 944px (Tablets - iPad)   */
+/**********************************/
 
 @media (max-width: 59em) {
   html {
-    font-size: 7px;
+    /* font-size: 7px; */
+    font-size: 44%;
   }
-
 
   .logo {
-    padding-top: 8rem;
-    width: 15rem;
+    width: 12vw;
     height: auto;
+    padding-top: 5vh;
   }
 
-  .main-heading {
-    
-    padding-top: 2rem;
-    /* letter-spacing: -0.3px; */
+  .hero-text-box {
+    margin-top: 20vh;
   }
-
-  .section-hero {
-    padding-left:5rem;
-    background-position: -300px;
-    background-repeat:no-repeat;
-
-  }
-
+  /* Transform Nav Menu to Button */
   .main-nav {
     display: flex;
     justify-content: flex-end;
@@ -156,14 +114,14 @@
     display: none;
   }
 
-  .nav-list a:link,
-  .nav-list a:visited {
-    font-size: 2.8rem;
-  }
-
   .btn-mobile-nav {
     display: block;
     z-index: 9999;
+  }
+
+  .nav-list a:link,
+  .nav-list a:visited {
+    font-size: 2.8rem;
   }
 }
 
@@ -173,38 +131,44 @@
 
 @media (max-width: 34em) {
   .container {
-    /* max-width: 50rem; */
+    max-width: 100%;
+    padding: 0;
   }
 
-  html {
-    font-size: 7px;
+  .logo-area {
+    padding-left: 10vw;
+  }
+
+  .logo {
+    width: 15vw;
+    height: auto;
+    padding-top: 5vh;
+  }
+
+  .subtext {
+    font-size: 2rem;
+  }
+
+  .hero-text-box {
+    margin-top: 35vh;
+    padding: 3rem 10vw;
+    background-image: linear-gradient(
+      rgba(34, 34, 34, 0.8),
+      60%,
+      rgba(34, 34, 34, 0)
+    );
+  }
+
+  p {
+    padding: 3vh 10vw;
+  }
+
+  .main-heading {
+    font-weight: bolder;
   }
 
   .nav-list {
     gap: 5.6rem;
-  }
-
-  .logo {
-    width: 10rem;
-    height: auto;
-    padding-top: 4rem;
-  }
-  .subtext {
-    font-size: 2rem;
-  }
-  .hero-text-box {
-    max-width: 28rem;
-  }
-
-  .main-heading {
-    padding-top: 28rem;
-    font-weight: bolder;
-  }
-
-  .section-hero {
-    padding-left: 2rem;
-    background-position: -350px;
-    background-repeat:no-repeat;
   }
 }
 
@@ -213,20 +177,13 @@
 /**************************/
 
 @media (max-width: 22em) {
-  html {
-    font-size: 6px;
-  }
-
-  .logo {
-    width: 5rem;
-    height: auto;
-    padding-top: 6rem;
+  .main-heading {
+    /* font-size: 4rem; */
   }
   .subtext {
     padding-top: 2rem;
     font-size: 1.6rem;
   }
-  .main-heading {
-    padding-top: 15rem;
-  }
 }
+
+/* @media (max-aspect-ratio:9/16):  */
