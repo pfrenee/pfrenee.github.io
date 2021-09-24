@@ -194,15 +194,16 @@
     margin-top: 5vh;
   }
   .main-heading {
-    font-size: 3.2rem;
+    font-size: 6vh;
     letter-spacing: -1px;
+    margin-bottom: 4vh;
   }
   .section-hero {
     max-width: 100vw;
   }
 
   hero-btn:link {
-    font-size: 1.5rem;
+    font-size: 4vh;
   }
   .nav-list {
     gap: 3.2rem;
