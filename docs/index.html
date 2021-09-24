@@ -8,20 +8,15 @@
     <!-- page title and icon -->
     <title>Lucky Loupe</title>
     <link rel="icon" type="image/png" sizes="32x32" href="icon/logo-h.png" />
-    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <!-- cus font 1 -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Lora"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Playfair Display"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Balthazar"
     />
     <link
       rel="stylesheet"
@@ -31,10 +26,6 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Nothing You Could Do"
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Open Sans"
-    />
     <!-- cus font 2 -->
     <link
       rel="stylesheet"
@@ -42,57 +33,64 @@
     />
   </head>
   <body>
-    <header class="section-hero">
-      <nav class="container">
-        <div>
-          <img
-            class="logo"
-            src="icon/logo-g2.png"
-            alt="Lucky Loupe LOGO"
-            width="200"
-            height="auto"
-          />
-          <h2 class="subtext">Time Pieces, Parts & More</h2>
-        </div>
-        <div class="menu-container">
-          <div class="menu-item">
-            <a href="index.html">HOME</a>
-          </div>
-          <div class="menu-item">
-            <a href="https://www.ebay.com/str/luckyloupe">SHOP</a>
-          </div>
-          <div class="menu-item">
-            <a href="#">SELL YOUR WATCH</a>
-          </div>
-          <div class="menu-item">
-            <a href="#">CONTACT US</a>
-          </div>
-        </div>
+    <header class="header">
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="https://www.ebay.com/str/luckyloupe">SHOP</a></li>
+          <li><a href="#">SELL YOUR WATCH</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon
+            class="icon-mobile-nav"
+            name="close-circle-outline"
+          ></ion-icon>
+        </button>
       </nav>
-
-      <div class="container hero-container">
-        <div class="hero-text-box">
-          <h1 class="header-main">Take the uncertainty out of the hunt</h1>
-
-          <a class="btn hero-btn" href="https://www.ebay.com/str/luckyloupe"
-            >Shop Watches</a
-          >
-        </div>
-      </div>
     </header>
 
-    <section class="container">
-      <div>
-        <!-- <h2>Some random heading</h2> -->
-        <p class="story">
-          Watches are a link to the past. Every piece tells a story -- from the
-          decade and style in which it was designed to the intended use for the
-          wearer, and the original owner who wore it for many years of his life.
-        </p>
-      </div>
+    <main>
+      <section class="section-hero">
+        <div class="hero-container container">
+          <div class="logo-area">
+            <img class="logo" src="icon/logo-g2.png" alt="Lucky Loupe LOGO" />
+            <h2 class="subtext">Time Pieces, Parts & More</h2>
+          </div>
+          <div class="hero-text-box">
+            <h1 class="main-heading">Take the uncertainty out of the hunt</h1>
+            <a class="hero-btn btn" href="https://www.ebay.com/str/luckyloupe"
+              >Shop Watches</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section-story">
+        <div class="container">
+          <!-- <h2>Some random heading</h2> -->
+          <p class="story">
+            Watches are a link to the past. Every piece tells a story -- from
+            the decade and style in which it was designed to the intended use
+            for the wearer, and the original owner who wore it for many years of
+            his life.
+          </p>
+        </div>
+      </section>
+    </main>
+    <section class="section-footer">
+      <footer class="container footer">
+        <p>Lucky Loupe &copy; 2021</p>
+      </footer>
     </section>
-    <footer class="container footer">
-      <p>Lucky Loupe &copy; 2021</p>
-    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
