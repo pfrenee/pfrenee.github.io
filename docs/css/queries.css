@@ -48,46 +48,46 @@
   .container {
     max-width: 100rem;
   }
+
+  .logo {
+    padding-top: 5rem;
+    width: 15rem;
+    height: auto;
+  }
+
+  .main-heading {
+    padding-top: 7rem;
+    letter-spacing: -0.03rem;
+  }
+
+  .section-hero {
+    background-position: -20vmax;
+    padding-left: 3rem;
+  }
 }
 
 /**************************/
-/* BELOW 1200px (Landscape Tablets) */
+/* BELOW 944px (Tablets) */
 /**************************/
 
-@media (max-width: 75em) {
+@media (max-width: 59em) {
   .container {
     max-width: 100rem;
   }
 
   .logo {
-    width: 15rem;
-    height: auto;
-  }
-  .section-hero {
-    background-position: -20vmax;
-  }
-}
-
-/**************************/
-/* BELOW 544px (Phones) */
-/**************************/
-
-@media (max-width: 34em) {
-  .container {
-    /* max-width: 50rem; */
-  }
-
-  html {
-    font-size: 9px;
-  }
-
-  .logo {
+    padding-top: 3rem;
     width: 10rem;
     height: auto;
   }
 
+  .main-heading {
+    padding-top: 3rem;
+    letter-spacing: -0.03rem;
+  }
+
   .section-hero {
-    background-position: -20vmax;
+    background-position: -30vmax;
   }
 
   .nav-list {
@@ -137,5 +137,56 @@
   .btn-mobile-nav {
     display: block;
     z-index: 9999;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .container {
+    /* max-width: 50rem; */
+  }
+  html {
+    font-size: 6px;
+  }
+
+  .logo {
+    width: 8rem;
+    height: auto;
+    padding-top: 8rem;
+  }
+
+  .subtext {
+    padding-top: 2rem;
+  }
+  .main-heading {
+    padding-top: 6rem;
+    letter-spacing: -0.03rem;
+  }
+
+  .section-hero {
+    background-position: -40vmax;
+    padding-left: 2rem;
+  }
+}
+
+/**************************/
+/* BELOW 340px (Smaller Phones) */
+/**************************/
+
+@media (max-width: 22em) {
+  .logo {
+    width: 5rem;
+    height: auto;
+    padding-top: 6rem;
+  }
+  .subtext {
+    padding-top: 2rem;
+  }
+  .main-heading {
+    padding-top: 16rem;
+    letter-spacing: -0.03rem;
   }
 }
