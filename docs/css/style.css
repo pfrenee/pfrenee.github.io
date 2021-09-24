@@ -28,6 +28,7 @@
   /* width: 100vw; */
   background-image: linear-gradient(rgba(34, 34, 34, 1), rgba(34, 34, 34, 0));
 }
+
 .nav-list {
   display: flex;
   gap: 6.4rem;
@@ -51,7 +52,7 @@
   width: 3.2rem;
 }
 
-.icon-mobile-nav[name="close-circle-outline"] {
+.icon-mobile-nav[name="close-outline"] {
   display: none;
 }
 
@@ -71,8 +72,7 @@
 
 .hero-text-box {
   max-width: 40rem;
-  transform: translate(0%, 25%);
-  z-index: -1;
+  padding-top: 5.6rem;
 }
 
 .main-heading {
