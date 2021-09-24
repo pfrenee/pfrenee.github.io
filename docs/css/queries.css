@@ -146,6 +146,7 @@
   }
 
   .subtext {
+    padding-top: 1.8rem;
     font-size: 2rem;
   }
 
@@ -181,7 +182,7 @@
     /* font-size: 4rem; */
   }
   .subtext {
-    padding-top: 2rem;
+    padding-top: 1.6rem;
     font-size: 1.6rem;
   }
 }
