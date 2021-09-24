@@ -197,4 +197,7 @@
   .section-hero {
     max-width: 100vw;
   }
+  .nav-list {
+    gap: 1rem;
+  }
 }
