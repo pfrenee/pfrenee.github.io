@@ -81,7 +81,7 @@
   font-family: Cormorant SC;
 
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.5px;
   margin-bottom: 4rem;
   text-shadow: 0.2rem 0.2rem rgba(100, 100, 100, 0.6);
   /* transition: cubic-bezier(1, 0, 0, 1) 1s; */
