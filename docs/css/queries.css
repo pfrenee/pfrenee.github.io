@@ -50,8 +50,8 @@
   }
 
   .logo {
-    padding-top: 5rem;
-    width: 15rem;
+    padding-top: 10rem;
+    width: 18rem;
     height: auto;
   }
 
@@ -86,8 +86,8 @@
   }
 
   .logo {
-    padding-top: 5rem;
-    width: 10rem;
+    padding-top: 15rem;
+    width: 15rem;
     height: auto;
   }
 
@@ -182,16 +182,20 @@
   }
 
   .logo {
-    width: 8rem;
+    width: 10rem;
     height: auto;
-    padding-top: 8rem;
+    padding-top: 10rem;
   }
 
   .subtext {
     padding-top: 2rem;
   }
+  .hero-text-box {
+    max-width: 28rem;
+  }
+
   .main-heading {
-    padding-top: 6rem;
+    padding-top: 4rem;
   }
 
   .section-hero {
