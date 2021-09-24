@@ -187,6 +187,9 @@
 }
 
 @media (min-aspect-ratio: 19/9) {
+  .logo {
+    width: 15vh;
+  }
   .hero-text-box {
     margin-top: 5vh;
   }
@@ -202,6 +205,6 @@
     font-size: 1.5rem;
   }
   .nav-list {
-    gap: 2.8rem;
+    gap: 3.2rem;
   }
 }
