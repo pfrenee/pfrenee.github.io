@@ -186,4 +186,12 @@
   }
 }
 
-/* @media (max-aspect-ratio:9/16):  */
+@media (min-aspect-ratio: 19.5/9) {
+  .hero-text-box {
+    margin-top: 10vh;
+  }
+  .main-heading {
+    font-size: 3rem;
+    letter-spacing: -2px;
+  }
+}
