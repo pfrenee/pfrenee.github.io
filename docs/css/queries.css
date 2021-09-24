@@ -99,7 +99,10 @@
   .section-hero {
     background-position: -30vmax;
     background-image: linear-gradient(
+        rgba(34, 34, 34, 0.7),
+        5%,
         rgba(34, 34, 34, 0.05),
+        10%,
         rgba(161, 56, 56, 0.05)
       ),
       url(../img/bg-w.jpg);
