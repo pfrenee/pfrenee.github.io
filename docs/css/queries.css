@@ -56,7 +56,7 @@
   }
 
   .logo {
-    padding-top: 10rem;
+    padding-top: 8rem;
     width: 18rem;
     height: auto;
   }
@@ -66,9 +66,9 @@
   }
 
 .section-hero{
-  padding-left:8rem;
-  background-position: -200px;
-
+  padding-left:3rem;
+  /* background-position: -200px; */
+  background-position: center;
 }
 .main-nav {
   padding: 0 5vw;
@@ -83,7 +83,7 @@
 
 @media (max-width: 59em) {
   html {
-    font-size: 9px;
+    font-size: 8px;
   }
 
   .container {
