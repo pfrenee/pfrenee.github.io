@@ -51,9 +51,10 @@
 /**************************/
 
 @media (max-width: 75em) {
-  .container {
-    max-width: 100rem;
+  html {
+    font-size: 9px;
   }
+
 
   .logo {
     padding-top: 8rem;
@@ -62,14 +63,14 @@
   }
 
   .main-heading {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 
 .section-hero{
-  padding-left:3rem;
-  /* background-position: -200px; */
+  /* padding-left:0rem; */
   background-position: center;
 }
+
 .main-nav {
   padding: 0 5vw;
 }
@@ -86,9 +87,6 @@
     font-size: 7px;
   }
 
-  .container {
-    max-width: 100rem;
-  }
 
   .logo {
     padding-top: 8rem;
