@@ -103,6 +103,8 @@
   .section-hero {
     padding-left:5rem;
     background-position: -300px;
+    background-repeat:no-repeat;
+
   }
 
   .main-nav {
@@ -202,6 +204,7 @@
   .section-hero {
     padding-left: 2rem;
     background-position: -350px;
+    background-repeat:no-repeat;
   }
 }
 
