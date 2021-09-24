@@ -59,7 +59,11 @@
     padding-top: 7rem;
   }
 
+.section-hero{
+  padding-left:8rem;
+  background-position: -300px;
 
+}
 .main-nav {
   padding: 0 5vw;
 }
@@ -81,7 +85,7 @@
   }
 
   .logo {
-    padding-top: 15rem;
+    padding-top: 8rem;
     width: 15rem;
     height: auto;
   }
@@ -92,7 +96,7 @@
   }
 
   .section-hero {
-    background-position: -200px;
+    background-position: -300px;
   }
 
   .main-nav {
