@@ -154,7 +154,7 @@
 
 .on-the-hunt {
   font-family: Prata;
-  grid: flex;
+  display: flex;
   justify-items: center;
   align-items: flex-start;
   gap: 1rem;

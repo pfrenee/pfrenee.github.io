@@ -201,9 +201,6 @@
 /**************************/
 
 @media (max-width: 22em) {
-  .main-heading {
-    /* font-size: 4rem; */
-  }
   .subtext {
     font-size: 1.6rem;
   }
