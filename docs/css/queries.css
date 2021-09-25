@@ -54,6 +54,17 @@
     /* font-size: 7px; */
     font-size: 44%;
   }
+  .section-sell-your-watch .container {
+    display: block;
+    justify-content: center;
+    gap: 6rem;
+  }
+
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.1rem;
+  }
 
   .logo {
     width: 12vw;
@@ -130,7 +141,7 @@
 /**************************/
 
 @media (max-width: 34em) {
-  .container {
+  .hero-container {
     max-width: 100%;
     padding: 0;
   }
@@ -154,18 +165,19 @@
     margin-top: 30vh;
     padding: 3rem 10vw;
     background-image: linear-gradient(
-      rgba(34, 34, 34, 0.8),
+      rgba(34, 34, 34, 0.7),
       60%,
       rgba(34, 34, 34, 0)
     );
   }
 
-  p {
-    padding: 3vh 10vw;
+  .story p,
+  .footer p {
+    padding: 3vh 0;
   }
 
   .main-heading {
-    font-weight: bolder;
+    font-weight: 600;
   }
 
   .nav-list {
@@ -196,7 +208,7 @@
   }
   .main-heading {
     font-size: 6vh;
-    letter-spacing: -0.3rem;
+    letter-spacing: -0.2rem;
     margin-bottom: 4vh;
   }
   .section-hero {
