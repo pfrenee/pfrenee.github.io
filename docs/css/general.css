@@ -71,7 +71,8 @@ Medium: 11px
 html {
   /* font-size: 10px; */
   font-size: 62.5%;
-  overflow-x: hidden;
+  /* overflow-x: hidden;
+  overflow-y: visible; */
 }
 
 body {
@@ -79,8 +80,8 @@ body {
   font-family: Lora;
   font-size: 1.6rem;
   background-color: #313835;
-  position: relative;
-  overflow-x: hidden;
+  /* overflow-x: hidden;
+  overflow-y: visible; */
 }
 
 a:link,
@@ -110,4 +111,10 @@ p {
 .container {
   margin: 0 auto;
   max-width: 80vw;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  height: 0;
 }
