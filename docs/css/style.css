@@ -102,7 +102,7 @@
 }
 
 .main-heading::first-letter {
-  font-size: 5.2rem;
+  font-size: 6.2rem;
 }
 
 .hero-btn:link,
@@ -153,7 +153,7 @@
 }
 
 .on-the-hunt p::first-letter {
-  font-size: 3.2rem;
+  font-size: 3.4rem;
 }
 .unicorn {
   width: 34rem;
@@ -165,7 +165,7 @@
   fill: #303b37;
 }
 .target-intro {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   letter-spacing: -0.02rem;
   margin-bottom: 0.5rem;
 }
