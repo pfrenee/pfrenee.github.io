@@ -8,7 +8,16 @@
       20%,
       rgba(161, 56, 56, 0.05)
     ),
-    url(../img/bg-w.jpg);
+    url(../img/bg.jpg);
+
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.7),
+      10%,
+      rgba(34, 34, 34, 0.05),
+      20%,
+      rgba(161, 56, 56, 0.05)
+    ),
+    url(../img/bg.webp);
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -145,7 +154,7 @@
 
 .on-the-hunt {
   font-family: Prata;
-  display: flex;
+  grid: flex;
   justify-items: center;
   align-items: flex-start;
   gap: 1rem;

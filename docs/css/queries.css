@@ -91,7 +91,9 @@
   }
 
   .nav-list {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     position: absolute;
     top: 0;
     left: 0;
@@ -207,6 +209,10 @@
   }
 }
 
+/**************************/
+/* SUPER WIDE SCREENS */
+/**************************/
+
 @media (min-aspect-ratio: 19/9) {
   .logo {
     width: 15vh;
@@ -220,7 +226,7 @@
     margin-bottom: 4vh;
   }
 
-  .story::first-letter {
+  .main-heading::first-letter {
     font-size: 8vh;
   }
 
@@ -233,5 +239,56 @@
   }
   .nav-list {
     gap: 3.2rem;
+  }
+}
+
+/**************************/
+/* Fixing Safari flexbox gap */
+/**************************/
+
+.no-flexbox-gap .nav-list li:not(:last-child) {
+  margin-right: 6.4rem;
+}
+
+.no-flexbox-gap .on-the-hunt:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.no-flexbox-gap .list-item:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.no-flexbox-gap .list-icon:not(:last-child) {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .footer-row div:not(:last-child) {
+  margin-right: 6.4rem;
+}
+
+.no-flexbox-gap .social-links li:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
+.no-flexbox-gap .footer-nav li:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+@media (max-width: 34em) {
+  .no-flexbox-gap .nav-list li:not(:last-child) {
+    margin-right: 5.6rem;
+  }
+}
+
+@media (min-aspect-ratio: 19/9) {
+  .no-flexbox-gap .nav-list li:not(:last-child) {
+    margin-right: 3.2rem;
+  }
+}
+
+@media (max-width: 59em) {
+  .no-flexbox-gap .nav-list li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 4.8rem;
   }
 }
