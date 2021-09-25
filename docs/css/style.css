@@ -144,12 +144,12 @@
 }
 
 .on-the-hunt {
+  font-family: Prata;
   display: flex;
   justify-items: center;
   align-items: flex-start;
   gap: 1rem;
   margin-bottom: 2rem;
-  font-family: Prata;
 }
 
 .on-the-hunt p::first-letter {
@@ -165,7 +165,7 @@
   fill: #303b37;
 }
 .target-intro {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   letter-spacing: -0.02rem;
   margin-bottom: 0.5rem;
 }

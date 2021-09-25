@@ -177,6 +177,7 @@
 
   .main-heading {
     font-size: 3.8rem;
+    font-weight: 600;
   }
 
   .main-heading::first-letter {
