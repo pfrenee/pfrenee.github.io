@@ -58,7 +58,9 @@
 @media (max-width: 59em) {
   html {
     /* font-size: 7px; */
-    font-size: 43.75%;
+    /* font-size: 8px; */
+    /* font-size: 43.75%; */
+    font-size: 50%;
   }
   .section-sell-your-watch .container {
     display: block;
@@ -72,6 +74,9 @@
     padding-top: 5vh;
   }
 
+  main-heading {
+    font-size: 4.4rem;
+  }
   .hero-text-box {
     margin-top: 20vh;
   }
@@ -171,13 +176,13 @@
     );
   }
 
+  .main-heading {
+    font-size: 3.8rem;
+  }
+
   .story p,
   .footer p {
     padding: 3vh 0;
-  }
-
-  .main-heading {
-    font-weight: 600;
   }
 
   .nav-list {
@@ -194,7 +199,6 @@
     /* font-size: 4rem; */
   }
   .subtext {
-    padding-top: 1.6rem;
     font-size: 1.6rem;
   }
 }

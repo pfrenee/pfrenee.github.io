@@ -81,8 +81,9 @@ html {
 
 body {
   color: #303b37;
-  font-family: Lora;
-  font-size: 1.8rem;
+  /* font-family: Lora; */
+  font-family: Prata;
+  font-size: 2.4rem;
   /* font-size: 2.2rem; */
   background-color: #313835;
   overflow-x: hidden;
@@ -124,7 +125,8 @@ p {
 
 .section-sell-your-watch {
   background-color: #e3ddd1;
-  padding: 8vh 0;
+  padding: 10vh 0;
+  color: #27494a;
   /* font-family: Montserrat; */
   /* font-family: Gideon Roman; */
   /* font-family: Inter; */
@@ -134,9 +136,10 @@ p {
   margin: 5vh 0;
 }
 .story {
-  font-size: 2.2rem;
-  line-height: 1.6;
-  padding: 8vh 0;
+  font-family: Lora;
+  font-size: 3rem;
+  line-height: 1.4;
+  padding: 10vh 0;
 }
 
 .footer p {

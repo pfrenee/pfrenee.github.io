@@ -74,9 +74,9 @@
 .subtext {
   font-family: Nothing You Could Do;
   font-size: 2.4rem;
-  color: rgba(251, 239, 218, 0.6);
+  color: rgba(251, 239, 218, 0.7);
   font-weight: lighter;
-  padding: 2rem 0;
+  padding: 1.6rem 0;
 }
 
 .hero-text-box {
@@ -88,8 +88,8 @@
 
 .main-heading {
   font-family: Cormorant SC;
-
-  font-size: 4.8rem;
+  /* font-family: Prata; */
+  font-size: 4.6rem;
 
   color: #ebcbad;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
@@ -139,45 +139,43 @@
   gap: 6rem;
 }
 
-.section-sell-your-watch p {
-  color: #27494a;
-}
-
 .on-the-hunt {
   display: flex;
   justify-items: center;
   align-items: flex-start;
   gap: 1rem;
   margin-bottom: 2rem;
+  font-family: Prata;
 }
 
 .unicorn {
-  width: 16rem;
+  width: 34rem;
   height: auto;
+  margin-bottom: 3rem;
 }
 
 .unicorn path {
   fill: #303b37;
 }
 .target-intro {
-  font-size: 2.2rem;
+  font-size: 2.6rem;
+  margin-bottom: 0.5rem;
 }
-
-.watch-brand-list li,
-.watch-style-list li {
-  font-size: 1.8rem;
-  color: #27494a;
-  padding: 0.3rem 0;
-  list-style: none;
-}
-
 .watch-brand-list {
   margin-bottom: 2rem;
 }
 
 .watch-brand-list,
 .watch-style-list {
-  margin-left: 1.6rem;
+  /* move bullets */
+  margin-left: 2.4rem;
+}
+
+.watch-brand-list li,
+.watch-style-list li {
+  font-size: 2.4rem;
+  padding: 1.2rem 0;
+  list-style: none;
 }
 .watch-brand-list li::before,
 .watch-style-list li::before {
