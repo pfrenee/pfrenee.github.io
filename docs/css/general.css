@@ -71,8 +71,7 @@ Medium: 11px
 html {
   /* font-size: 10px; */
   font-size: 62.5%;
-  /* overflow-x: hidden;
-  overflow-y: visible; */
+  overflow-x: hidden;
 }
 
 body {
@@ -80,8 +79,7 @@ body {
   font-family: Lora;
   font-size: 1.6rem;
   background-color: #313835;
-  /* overflow-x: hidden;
-  overflow-y: visible; */
+  overflow-x: hidden;
 }
 
 a:link,
