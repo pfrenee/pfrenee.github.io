@@ -101,6 +101,10 @@
   margin-bottom: 4rem;
 }
 
+.main-heading::first-letter {
+  font-size: 5.2rem;
+}
+
 .hero-btn:link,
 .hero-btn:visited {
   display: inline-block;
@@ -148,6 +152,9 @@
   font-family: Prata;
 }
 
+.on-the-hunt p::first-letter {
+  font-size: 3.6rem;
+}
 .unicorn {
   width: 34rem;
   height: auto;
@@ -158,7 +165,7 @@
   fill: #303b37;
 }
 .target-intro {
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   margin-bottom: 0.5rem;
 }
 .watch-brand-list {
@@ -174,6 +181,7 @@
 .watch-brand-list li,
 .watch-style-list li {
   font-size: 2.4rem;
+  letter-spacing: -0.03rem;
   padding: 1.2rem 0;
   list-style: none;
 }

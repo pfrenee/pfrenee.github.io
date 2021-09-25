@@ -137,11 +137,14 @@ p {
 }
 .story {
   font-family: Lora;
-  font-size: 3rem;
+  font-size: 2.8rem;
   line-height: 1.4;
   padding: 10vh 0;
 }
 
+.story::first-letter {
+  font-size: 4.4rem;
+}
 .footer p {
   font-size: 1.4rem;
   color: #777;
