@@ -43,6 +43,12 @@
   .nav-list {
     gap: 5rem;
   }
+
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.1rem;
+  }
 }
 
 /**********************************/
@@ -51,19 +57,13 @@
 
 @media (max-width: 59em) {
   html {
-    /* font-size: 7px; */
-    font-size: 44%;
+    /* font-size: 8px; */
+    font-size: 50%;
   }
   .section-sell-your-watch .container {
     display: block;
     justify-content: center;
     gap: 6rem;
-  }
-
-  .grid--3-cols,
-  .grid--4-cols {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.1rem;
   }
 
   .logo {
