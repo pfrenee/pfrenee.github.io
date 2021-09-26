@@ -139,10 +139,12 @@ p {
 .section-subtitle {
   /* Preset 1 */
   font-family: Inter, sans-serif;
-  font-size: 2.3rem;
+  /* letter-spacing: -0.1rem; */
+  /* font-size: 2.3rem; */
+  font-size: 2rem;
   font-weight: 400;
   color: #666;
-  line-height: 1.5;
+  line-height: 1.6;
   letter-spacing: -0.02rem;
 }
 

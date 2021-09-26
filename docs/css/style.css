@@ -175,17 +175,17 @@
   width: 125%;
   height: 1%;
   content: url(../img/stroke.svg);
-  margin: -1.6rem 0 0 -2.8rem;
+  margin: -1.4rem 0 0 -2.8rem;
 }
 
 .mission p {
   padding: 0;
-  line-height: 1.8;
+  line-height: 1.5;
   /* margin: 0; */
 }
 
 .mission p:last-child {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
 }
 
 .on-the-hunt {
