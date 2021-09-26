@@ -115,7 +115,7 @@
 
     flex-direction: column;
     justify-content: center;
-    gap: 6rem;
+    gap: 6.4rem;
     transition: all 0.5s ease-in;
     /* Hide navigation */
     /* display: none;  - allows NO animation */
@@ -220,7 +220,7 @@
   }
 
   .nav-list {
-    gap: 4rem;
+    gap: 5rem;
   }
 }
 
@@ -298,20 +298,22 @@
 .no-flexbox-gap .footer-nav li:not(:last-child) {
   margin-bottom: 2.4rem;
 }
-
+/* Smaller Tabblet */
 @media (max-width: 59em) {
   .no-flexbox-gap .nav-list li:not(:last-child) {
     margin-right: 0;
-    margin-bottom: 6rem;
+    margin-bottom: 6.4rem;
   }
 }
 
+/* Phones */
 @media (max-width: 34em) {
   .no-flexbox-gap .nav-list li:not(:last-child) {
-    margin-right: 4rem;
+    margin-right: 5rem;
   }
 }
 
+/* Wide Screen */
 @media (min-aspect-ratio: 19/9) {
   .no-flexbox-gap .nav-list li:not(:last-child) {
     margin-right: 3.2rem;
