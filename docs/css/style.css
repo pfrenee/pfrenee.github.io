@@ -211,8 +211,8 @@
   border-radius: 2rem;
   padding: 3rem 3rem 4rem 4rem;
 
-  background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 5px 15px rgb(69, 69, 69, 0.2);
+  background-color: #d0d1d0;
+  box-shadow: 0 5px 15px 3px rgb(68, 68, 68, 0.2);
 }
 
 .items-of-interest h3 {
