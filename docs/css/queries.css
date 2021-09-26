@@ -196,7 +196,7 @@
   }
 
   .link-to-the-past {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
   }
 
   .items-of-interest {
@@ -213,7 +213,7 @@
 
   .watch-brand-list li,
   .watch-style-list li {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-left: 1.4rem;
   }
 
