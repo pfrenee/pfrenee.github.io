@@ -80,16 +80,7 @@
   .hero-text-box {
     margin-top: 20vh;
   }
-
-  .icon-contact {
-    padding-right: 1rem;
-    height: 3.4rem;
-    width: 3.4rem;
-    padding-top: 3rem;
-  }
-
   /* Transform Nav Menu to Button */
-
   .main-nav {
     display: flex;
     justify-content: flex-end;
@@ -195,23 +186,6 @@
     font-size: 5.2rem;
   }
 
-  .items-of-interest {
-    letter-spacing: -0.02rem;
-    background-color: #d6d8d7;
-    border-radius: 2rem;
-    padding: 2.5rem 2rem 2rem 3rem;
-  }
-
-  .items-of-interest h3 {
-    font-size: 1.8rem;
-  }
-
-  .watch-brand-list li,
-  .watch-style-list li {
-    font-size: 1.8rem;
-    margin-left: 1.4rem;
-  }
-
   .story p,
   .footer p {
     padding: 3vh 0;
@@ -297,13 +271,6 @@
   margin-bottom: 2.4rem;
 }
 
-@media (max-width: 59em) {
-  .no-flexbox-gap .nav-list li:not(:last-child) {
-    margin-right: 0;
-    margin-bottom: 4.8rem;
-  }
-}
-
 @media (max-width: 34em) {
   .no-flexbox-gap .nav-list li:not(:last-child) {
     margin-right: 5.6rem;
@@ -313,5 +280,12 @@
 @media (min-aspect-ratio: 19/9) {
   .no-flexbox-gap .nav-list li:not(:last-child) {
     margin-right: 3.2rem;
+  }
+}
+
+@media (max-width: 59em) {
+  .no-flexbox-gap .nav-list li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 4.8rem;
   }
 }
