@@ -115,7 +115,7 @@
 
     flex-direction: column;
     justify-content: center;
-    gap: 5rem;
+    gap: 6rem;
     transition: all 0.5s ease-in;
     /* Hide navigation */
     /* display: none;  - allows NO animation */
@@ -302,7 +302,7 @@
 @media (max-width: 59em) {
   .no-flexbox-gap .nav-list li:not(:last-child) {
     margin-right: 0;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
   }
 }
 
