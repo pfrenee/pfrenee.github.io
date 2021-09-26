@@ -115,7 +115,7 @@
 
     flex-direction: column;
     justify-content: center;
-    gap: 8rem;
+    gap: 5rem;
     transition: all 0.5s ease-in;
     /* Hide navigation */
     /* display: none;  - allows NO animation */
@@ -220,7 +220,7 @@
   }
 
   .nav-list {
-    gap: 6rem;
+    gap: 4rem;
   }
 }
 
@@ -272,7 +272,7 @@
 /**************************/
 
 .no-flexbox-gap .nav-list li:not(:last-child) {
-  margin-right: 6.4rem;
+  margin-right: 5rem;
 }
 
 .no-flexbox-gap .on-the-hunt:not(:last-child) {
@@ -302,13 +302,13 @@
 @media (max-width: 59em) {
   .no-flexbox-gap .nav-list li:not(:last-child) {
     margin-right: 0;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
   }
 }
 
 @media (max-width: 34em) {
   .no-flexbox-gap .nav-list li:not(:last-child) {
-    margin-right: 6rem;
+    margin-right: 4rem;
   }
 }
 
