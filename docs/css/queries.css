@@ -196,24 +196,22 @@
   }
 
   .section-subtitle {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .items-of-interest {
-    letter-spacing: -0.02rem;
-    background-color: #d6d8d7;
-    border-radius: 2rem;
     padding: 2.5rem 2rem 2rem 3rem;
   }
 
   .items-of-interest h3 {
     font-size: 2.2rem;
     font-weight: 800;
+    margin: 2.2rem 0;
   }
 
   .watch-brand-list li,
   .watch-style-list li {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-left: 1.4rem;
   }
 

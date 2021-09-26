@@ -207,10 +207,11 @@
 
 .items-of-interest {
   /* letter-spacing: -0.02rem; */
-  background-color: #d6d8d7;
+  margin: 4rem 0;
   border-radius: 2rem;
   padding: 3rem 3rem 4rem 4rem;
 
+  background-color: rgba(208, 209, 208, 0.7);
   box-shadow: 0 5px 15px #d0d1d0;
 }
 
