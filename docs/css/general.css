@@ -81,7 +81,7 @@ html {
 
 body {
   font-family: Prata, serif;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   color: #303b37;
   background-color: #313835;
   overflow-x: hidden;
@@ -90,7 +90,7 @@ body {
 a:link,
 a:visited {
   font-family: Montserrat;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #fbefda;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -119,13 +119,15 @@ p {
 .section-find-your-watch {
   background-color: #c7bba2;
   padding: 10vh 0;
+
+  text-align: center;
 }
 
 .section-title {
   /* Preset 1 */
   font-family: Prata, serif;
-  font-size: 3rem;
-  font-weight: 400;
+  font-size: 3.2rem;
+  font-weight: 700;
   padding: 1rem;
   /* Preset 2 */
   /* font-family: Lora, serif; */
@@ -137,17 +139,16 @@ p {
 .section-subtitle {
   /* Preset 1 */
   font-family: Inter, sans-serif;
-  font-size: 1.8rem;
-  font-weight: 300;
-  color: #555;
-  /* font-family: Lora; */
-  /* font-size: 2.8rem; */
+  font-size: 2.1rem;
+  font-weight: 400;
+  color: #666;
   line-height: 1.4;
+  letter-spacing: -0.02rem;
 }
 
 .section-sell-your-watch {
   background-color: #e3ddd1;
-  padding: 10vh 0;
+  padding: 8vh 0;
   color: #27494a;
   /* font-family: Montserrat; */
   /* font-family: Gideon Roman; */
@@ -163,9 +164,10 @@ p {
 }
 
 .footer p {
-  font-size: 1.5rem;
+  font-family: Lora, serif;
+  font-size: 1.4rem;
   color: #777;
-  padding: 4vh 0;
+  padding: 2vh 0;
 }
 
 /* REUSABLE */

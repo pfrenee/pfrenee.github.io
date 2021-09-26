@@ -41,13 +41,7 @@
   }
 
   .nav-list {
-    gap: 5rem;
-  }
-
-  .grid--3-cols,
-  .grid--4-cols {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.1rem;
+    gap: 4rem;
   }
 }
 
@@ -74,11 +68,15 @@
     padding-top: 5vh;
   }
 
-  main-heading {
+  .main-heading {
     font-size: 4.4rem;
   }
   .hero-text-box {
     margin-top: 20vh;
+  }
+
+  .section-find-your-watch .container {
+    max-width: 70vw;
   }
 
   .icon-contact {
@@ -112,7 +110,7 @@
 
     flex-direction: column;
     justify-content: center;
-    gap: 10rem;
+    gap: 4rem;
 
     transition: all 0.5s ease-in;
     /* Hide navigation */
@@ -192,28 +190,24 @@
   }
 
   .main-heading::first-letter {
-    font-size: 5.2rem;
-  }
-
-  .section-subtitle {
-    font-size: 2rem;
+    font-size: 4.8rem;
   }
 
   .items-of-interest {
-    padding: 2.5rem 2rem 2rem 3rem;
+    padding: 2.5rem 2rem 3rem 3rem;
   }
 
   .items-of-interest h3 {
-    font-size: 2.2rem;
-    font-weight: 800;
-    margin: 2.2rem 0;
+    /* font-size: 2rem; */
+    /* font-weight: 700; */
+    /* margin: 2.2rem 0; */
     /* text-align: center; */
   }
 
   .watch-brand-list li,
   .watch-style-list li {
-    font-size: 1.8rem;
-    margin-left: 1.4rem;
+    /* font-size: 2rem; */
+    /* margin-left: 0.1rem; */
   }
 
   .story p,
@@ -222,7 +216,7 @@
   }
 
   .nav-list {
-    gap: 5.6rem;
+    gap: 4rem;
   }
 }
 
