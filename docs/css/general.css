@@ -97,7 +97,7 @@ a:visited {
 }
 
 a:hover {
-  font-weight: bold;
+  /* font-weight: bold; */
   text-shadow: 0 0.1rem 2rem rgba(230, 166, 102, 0.9);
 }
 
@@ -119,7 +119,6 @@ p {
 .section-find-your-watch {
   background-color: #c7bba2;
   padding: 10vh 0;
-
   text-align: center;
 }
 

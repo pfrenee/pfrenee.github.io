@@ -116,7 +116,6 @@
     flex-direction: column;
     justify-content: center;
     gap: 8rem;
-
     transition: all 0.5s ease-in;
     /* Hide navigation */
     /* display: none;  - allows NO animation */
