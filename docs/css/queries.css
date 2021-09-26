@@ -195,8 +195,8 @@
     font-size: 5.2rem;
   }
 
-  .link-to-the-past {
-    /* font-size: 1.5rem; */
+  .section-subtitle {
+    font-size: 2.4rem;
   }
 
   .items-of-interest {
@@ -207,7 +207,7 @@
   }
 
   .items-of-interest h3 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 800;
   }
 
