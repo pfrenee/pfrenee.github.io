@@ -115,7 +115,7 @@
 
     flex-direction: column;
     justify-content: center;
-    gap: 10rem;
+    gap: 8rem;
 
     transition: all 0.5s ease-in;
     /* Hide navigation */
@@ -221,7 +221,7 @@
   }
 
   .nav-list {
-    gap: 8rem;
+    gap: 6rem;
   }
 }
 
@@ -303,13 +303,13 @@
 @media (max-width: 59em) {
   .no-flexbox-gap .nav-list li:not(:last-child) {
     margin-right: 0;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
   }
 }
 
 @media (max-width: 34em) {
   .no-flexbox-gap .nav-list li:not(:last-child) {
-    margin-right: 8rem;
+    margin-right: 6rem;
   }
 }
 
