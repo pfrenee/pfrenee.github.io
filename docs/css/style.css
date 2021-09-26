@@ -163,6 +163,7 @@
 .mission {
   margin: 4rem 0 3rem 0;
   color: #27494a;
+  font-weight: 700;
 }
 
 .ll {
@@ -220,7 +221,7 @@
   margin: 2.8rem 0;
 
   font-family: Montserrat, sans-serif;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 600;
   letter-spacing: -0.2px;
   text-transform: uppercase;
@@ -229,7 +230,7 @@
 
 .watch-brand-list,
 .watch-style-list {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-bottom: 2rem;
 }
 
