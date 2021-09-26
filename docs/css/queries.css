@@ -35,6 +35,12 @@
     font-size: 56.25%;
   }
 
+  .logo {
+    width: 15vw;
+    height: auto;
+    padding-top: 5vh;
+  }
+
   /* Decrease nav padding */
   .main-nav {
     padding: 0 5vw;
@@ -56,11 +62,6 @@
     /* font-size: 43.75%; */
     font-size: 50%;
   }
-  .section-sell-your-watch .container {
-    display: block;
-    justify-content: center;
-    gap: 6rem;
-  }
 
   .logo {
     width: 12vw;
@@ -77,6 +78,10 @@
 
   .section-find-your-watch .container {
     max-width: 70vw;
+  }
+
+  .section-sell-your-watch .container {
+    display: block;
   }
 
   .icon-contact {
@@ -110,7 +115,7 @@
 
     flex-direction: column;
     justify-content: center;
-    gap: 4rem;
+    gap: 10rem;
 
     transition: all 0.5s ease-in;
     /* Hide navigation */
@@ -216,7 +221,7 @@
   }
 
   .nav-list {
-    gap: 4rem;
+    gap: 8rem;
   }
 }
 
@@ -298,13 +303,13 @@
 @media (max-width: 59em) {
   .no-flexbox-gap .nav-list li:not(:last-child) {
     margin-right: 0;
-    margin-bottom: 4.8rem;
+    margin-bottom: 10rem;
   }
 }
 
 @media (max-width: 34em) {
   .no-flexbox-gap .nav-list li:not(:last-child) {
-    margin-right: 5.6rem;
+    margin-right: 8rem;
   }
 }
 
