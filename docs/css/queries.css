@@ -83,8 +83,8 @@
 
   .icon-contact {
     padding-right: 1rem;
-    height: 4rem;
-    width: 4rem;
+    height: 3.8rem;
+    width: 3.8rem;
     padding-top: 3rem;
   }
 
@@ -193,6 +193,10 @@
 
   .main-heading::first-letter {
     font-size: 5.2rem;
+  }
+
+  .link-to-the-past {
+    font-size: 1.5rem;
   }
 
   .items-of-interest {
