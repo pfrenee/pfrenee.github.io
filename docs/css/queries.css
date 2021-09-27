@@ -85,7 +85,7 @@
   }
 
   .footer .container {
-    grid-template-columns: 1fr 1fr;
+    max-width: 88%;
     row-gap: 10rem;;
   }
 
@@ -219,10 +219,14 @@
   }
 
   .footer .container {
+    grid-template-columns: 1fr 1fr;
     max-width: 85vw;
     column-gap: 3rem;
     row-gap: 10rem; 
   }
+
+
+
 }
 
 /**************************/
