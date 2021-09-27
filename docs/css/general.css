@@ -26,18 +26,27 @@
 
 ------ 02 COLORS ------
 
-   Primary: #303b37
+   Primary: #2c5052
 
+
+   
+   
+   
    Tints:
-     #fbefda (subtext, opacity = .6)
-     #c7bba2 (background-color)
-
+   #fbefda (subtext, opacity = .6)
+   #c7bba2 (background-color)
+   #485a4f
+   
    Shades: 
-
+   #303b37
+   #2c5052
+   #27494a
 
    Accents:
-
-
+   
+   #3d405b
+   #e6a666
+   
    Greys: 
 
    overlaying grey: 
@@ -82,7 +91,9 @@ html {
 body {
   font-family: Prata, serif;
   font-size: 2.4rem;
-  color: #303b37;
+
+  color: #2c5052;
+
   background-color: #313835;
   overflow-x: hidden;
 }
@@ -117,7 +128,9 @@ p {
 }
 
 .section-find-your-watch {
-  background-color: #c7bba2;
+  /* background-color: #c7bba2; */
+  background-color: #f4f1ec;
+
   padding: 10vh 0;
   text-align: center;
 }
@@ -127,7 +140,7 @@ p {
   font-family: Prata, serif;
   font-size: 3rem;
   font-weight: 600;
-  padding: 1rem;
+  padding: 1.5rem 0;
   /* letter-spacing: -0.1rem; */
   /* Preset 2 */
   /* font-family: Lora, serif; */
@@ -140,7 +153,6 @@ p {
   /* Preset 1 */
   font-family: Inter, sans-serif;
   /* letter-spacing: -0.1rem; */
-  /* font-size: 2.3rem; */
   font-size: 2rem;
   font-weight: 400;
   color: #666;
@@ -149,27 +161,18 @@ p {
 }
 
 .section-sell-your-watch {
-  background-color: #e3ddd1;
   padding: 8vh 0;
   color: #27494a;
-  /* font-family: Montserrat; */
-  /* font-family: Gideon Roman; */
-  /* font-family: Inter; */
+  background-color: #e3ddd1;
+  /* background-color: #bebfd1; */
 }
 
 .contact-form {
   margin: 5vh 0;
 }
 
-.section-footer {
-  background-color: #c7bba2;
-}
-
-.footer p {
-  font-family: Lora, serif;
-  font-size: 1.4rem;
-  color: #777;
-  padding: 2vh 0;
+.footer {
+  background-color: #f4f1ec;
 }
 
 /* REUSABLE */
