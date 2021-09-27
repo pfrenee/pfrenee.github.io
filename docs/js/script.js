@@ -18,10 +18,10 @@ btnNavEl.addEventListener("click", function () {
 // Smooth scrolling animation
 
 const allLinks = document.querySelectorAll("a:link");
+console.log(allLinks);
 
 allLinks.forEach(function (link) {
   link.addEventListener("click", function (e) {
-    //
     const href = link.getAttribute("href");
 
     // Scroll back to top
@@ -33,8 +33,8 @@ allLinks.forEach(function (link) {
       });
     }
 
-    // Scroll to other links
     if (href !== "#" && href.startsWith("#")) {
+      // Scroll to other links
       e.preventDefault();
       const sectionEl = document.querySelector(href);
       sectionEl.scrollIntoView({ behavior: "smooth" });
