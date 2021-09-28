@@ -33,12 +33,15 @@
    
    
    Tints:
-   #fbefda (subtext, opacity = .6)
+
+   #fbefda (logo subtext, opacity = .6)
    #c7bba2 (background-color)
+   #f8d7ae (golden text color)
    #485a4f
    
    Shades: 
-   #303b37
+   #30363f (background Indigo)
+   #303b37 (deep green)
    #2c5052
    #27494a
 
@@ -131,7 +134,7 @@ p {
   /* background-color: #c7bba2; */
   background-color: #f4f1ec;
 
-  padding: 10vh 0;
+  padding: 10rem 0;
   text-align: center;
 }
 
@@ -161,14 +164,11 @@ p {
 }
 
 .section-sell-your-watch {
-  padding: 8vh 0;
+  /* padding: 0 0 0 10vw; */
+  /* padding: 0 0 0 10vw; */
   color: #27494a;
   background-color: #e3ddd1;
   /* background-color: #bebfd1; */
-}
-
-.contact-form {
-  margin: 5vh 0;
 }
 
 .footer {

@@ -76,12 +76,28 @@
     margin-top: 20vh;
   }
 
-  .section-find-your-watch .container {
-    max-width: 70vw;
-  }
-
+  /* Contact Form  */
   .section-sell-your-watch .container {
     display: block;
+  }
+
+  .sell-your-watch-left {
+    padding: 10rem 10vw;
+    width: 80vw auto;
+    align-self: left;
+  }
+
+  .contact-form-container {
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+  }
+
+  .contact-form-text-box {
+    padding: 10rem 25vw;
+  }
+
+  .contact-form-heading {
+    font-size: 2.4rem;
   }
 
   .footer .container {
@@ -198,6 +214,10 @@
     font-weight: 600;
   }
 
+  .story p {
+    padding: 3vh 0;
+  }
+
   /* Compress the poem format  */
   .link-to-the-past span {
     display: inline;
@@ -207,8 +227,13 @@
     padding: 2.5rem 2rem 3rem 3rem;
   }
 
-  .story p {
-    padding: 3vh 0;
+  .contact-form-container {
+    grid-template-rows: 1fr 2fr;
+    width: 100%;
+  }
+
+  .contact-form-text-box {
+    padding: 6rem 15vw;
   }
 
   .nav-list {
