@@ -1,0 +1,200 @@
+/*
+------ 01 TYPOGRAPHY SYSTEM ------
+
+- Font Sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font Family 
+   default: Lora 
+   main-headaing: Cormorant SC 
+   subtext: Nothing You Could Do (lighter)
+   anchor: Montserrat
+
+- Font Weights
+   Default: 400 (main-heading on normal screen)
+   Medium: 500
+   Semi-bold: 600 (main-heading on smaller screen)
+   Bold: 700
+
+- Line Heights
+   Default: 1
+   Paragraph default: 1.6
+   Large: 1.8
+
+- Letter spacing
+   -2px
+
+------ 02 COLORS ------
+
+   Primary: #2c5052
+
+
+   
+   
+   
+   Tints:
+
+   #fbefda (logo subtext, opacity = .6)
+   #c7bba2 (background-color)
+   #f8d7ae (golden text color)
+   #485a4f
+   
+   Shades: 
+   #30363f (background Indigo)
+   #303b37 (deep green)
+   #2c5052
+   #27494a
+
+   Accents:
+   
+   #3d405b
+   #e6a666
+   
+   Greys: 
+
+   overlaying grey: 
+   
+     rgba(34,34,34) with opacity
+     #777 (footer)
+
+------ 05 SHADOWS ------
+
+  hero-btn:
+     box-shadow: 0 0.5rem 1.5rem 0 rgba(230, 166, 102, 0.5)  -- (hero-btn)
+
+
+  main-heading:
+     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 
+                  0px 8px 13px rgba(0, 0, 0, 0.1),
+                  0px 18px 23px rgba(0, 0, 0, 0.1);
+
+
+--- 06 BORDER-RADIUS
+
+Default: 0.5rem (hero-btn)
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Prata, serif;
+  font-size: 2.4rem;
+
+  color: #2c5052;
+
+  background-color: #313835;
+  overflow-x: hidden;
+}
+
+a:link,
+a:visited {
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  color: #fbefda;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  /* font-weight: bold; */
+  text-shadow: 0 0.1rem 2rem rgba(230, 166, 102, 0.9);
+}
+
+a:active {
+  text-shadow: 0 0.1rem 1rem rgba(230, 166, 102, 0.9);
+}
+
+p {
+  /* font-size: 1.2rem; */
+  line-height: 1.6;
+  padding: 0.8rem 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 80vw;
+}
+
+.section-find-your-watch {
+  /* background-color: #c7bba2; */
+  background-color: #f4f1ec;
+
+  padding: 10rem 0;
+  text-align: center;
+}
+
+.section-title {
+  /* Preset 1 */
+  font-family: Prata, serif;
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 1.5rem 0;
+  /* letter-spacing: -0.1rem; */
+  /* Preset 2 */
+  /* font-family: Lora, serif; */
+  /*font-family: Montserrat, sans-serif; */
+  /* text-transform: uppercase; */
+  color: #af7133;
+}
+
+.section-subtitle {
+  /* Preset 1 */
+  font-family: Inter, sans-serif;
+  /* letter-spacing: -0.1rem; */
+  font-size: 2rem;
+  font-weight: 400;
+  color: #666;
+  line-height: 1.6;
+  letter-spacing: -0.02rem;
+}
+
+.section-sell-your-watch {
+  /* padding: 0 0 0 10vw; */
+  /* padding: 0 0 0 10vw; */
+  color: #27494a;
+  background-color: #e3ddd1;
+  /* background-color: #bebfd1; */
+}
+
+.footer {
+  background-color: #f4f1ec;
+}
+
+/* REUSABLE */
+.sticky {
+  position: fixed;
+  top: 0;
+  height: 0;
+  width: 100%;
+}
+
+.grid--2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.2rem;
+}

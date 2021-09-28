@@ -1,0 +1,533 @@
+/* --------------------------------------------------------------- */
+/* HERO BACKGROUND */
+/* --------------------------------------------------------------- */
+
+.section-hero {
+  /* background  */
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.7),
+      10%,
+      rgba(34, 34, 34, 0.05),
+      20%,
+      rgba(161, 56, 56, 0.05)
+    ),
+    url(../img/bg.jpg);
+
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.7),
+      10%,
+      rgba(34, 34, 34, 0.05),
+      20%,
+      rgba(161, 56, 56, 0.05)
+    ),
+    url(../img/bg.webp);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* --------------------------------------------------------------- */
+/* MAIN NAVIGATION  */
+/* --------------------------------------------------------------- */
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  height: 6.4rem;
+  padding: 0 10vw;
+  background-image: linear-gradient(
+    rgba(34, 34, 34, 0.5),
+    70%,
+    rgba(34, 34, 34, 0)
+  );
+}
+
+.nav-list {
+  display: flex;
+  gap: 5rem;
+  text-align: center;
+}
+
+.nav-list li {
+  list-style: none;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.main-nav-contact {
+  padding-left: 3.5rem;
+}
+.icon-contact {
+  color: #fbefda;
+  height: 1.6rem;
+  width: 1.6rem;
+  padding: 0 0.5rem;
+  display: inline-block;
+}
+
+.icon-mobile-nav {
+  color: #fbefda;
+  height: 4.8rem;
+  width: 4.8rem;
+  padding-top: 3rem;
+  margin-left: 1rem;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+/* --------------------------------------------------------------- */
+/* HERO TEXTBOX */
+/* --------------------------------------------------------------- */
+
+.logo {
+  padding-top: 6.4rem;
+  width: 16vh;
+  height: auto;
+}
+
+.subtext {
+  font-family: Nothing You Could Do;
+  font-size: 2.4rem;
+  color: rgba(251, 239, 218, 0.7);
+  font-weight: lighter;
+  padding: 1.6rem 0;
+}
+
+.hero-text-box {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.main-heading {
+  font-family: Cormorant SC, serif;
+  /* font-family: Prata; */
+  font-size: 4.8rem;
+
+  color: #ebcbad;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+
+  /* text-transform: uppercase; */
+  letter-spacing: -0.2rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.hero-btn:link,
+.hero-btn:visited {
+  display: inline-block;
+
+  font-size: 2rem;
+  background-color: #edc070;
+  color: #30373f;
+
+  padding: 1.2rem 2.2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1.5rem 0 rgba(230, 166, 102, 0.5);
+
+  transition: background-color 1s, color 1s, box-shadow 0.1s;
+}
+
+.hero-btn:hover {
+  background-color: #e6a666;
+  color: #fbefda;
+  font-weight: normal;
+  box-shadow: 0 1rem 1.5rem 0 rgba(230, 166, 102, 0.5);
+}
+
+.hero-btn:active {
+  background-color: #e6a666;
+  /* background-color: #917369; */
+
+  color: #fbefda;
+  box-shadow: 0 0.5rem 1rem 0 rgba(230, 166, 102, 0.5);
+  font-style: normal;
+  transition: background-color 1s, box-shadow 0s;
+}
+
+/* --------------------------------------------------------------- */
+/* FIND YOUR WATCH  */
+/* --------------------------------------------------------------- */
+
+.section-find-your-watch .container {
+  max-width: 50vw;
+}
+
+.link-to-the-past span {
+  display: block;
+}
+
+.mission {
+  font-family: Cormorant SC, serif;
+  font-size: 2.6rem;
+  font-weight: 300;
+  color: #2c5052;
+  font-weight: 800;
+
+  margin: 4rem 0 3rem 0;
+}
+
+.mission p {
+  padding: 0;
+  line-height: 1.2;
+  /* margin: 0; */
+}
+
+.ll {
+  display: inline-flex;
+  flex-direction: column;
+
+  font-size: 3.2rem;
+  font-weight: 900;
+}
+
+.ll::after {
+  width: 125%;
+  height: 1%;
+  content: url(../img/stroke.svg);
+  margin: -1.4rem 0 0 -2.8rem;
+}
+
+/* --------------------------------------------------------------- */
+/* SELL YOUR WATCH  */
+/* --------------------------------------------------------------- */
+
+.section-sell-your-watch .container {
+  /* padding: 0; */
+  margin: 0;
+  max-width: 100%;
+  /* height: 100vw; */
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+}
+
+.sell-your-watch-left {
+  padding: 10rem 0 10rem 10vw;
+  align-self: left;
+}
+.section-sell-your-watch .section-title {
+  text-align: center;
+}
+
+.on-the-hunt {
+  display: flex;
+  justify-items: center;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.unicorn {
+  width: 34rem;
+  height: auto;
+  margin-bottom: 3rem;
+}
+
+.unicorn path {
+  fill: #303b37;
+}
+
+.items-of-interest {
+  /* letter-spacing: -0.02rem; */
+  margin: 4rem 0;
+  border-radius: 2rem;
+  padding: 3rem 3.5rem 5rem 4rem;
+
+  background-color: #d0d1d0;
+  box-shadow: 0 5px 15px 3px rgb(68, 68, 68, 0.2);
+}
+
+.items-of-interest h3 {
+  text-align: center;
+  margin: 2.8rem 0;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 2.1rem;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+
+  color: rgba(175, 113, 51, 0.8);
+  text-shadow: 0 3px 5px rgb(68, 68, 68, 0.1);
+}
+
+.watch-brand-list,
+.watch-style-list {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.items-of-interest ul {
+  padding-left: 1rem;
+  width: 100%;
+}
+
+.grid-block li {
+  list-style: none;
+
+  background: #ccc;
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  margin: 0.5rem 0.3rem;
+  border-radius: 0.6rem;
+  box-shadow: 0px 3px 7px 0px rgb(68, 68, 68, 0.2);
+  transition: background-color 0.4s ease-in, color 0.4s ease-in,
+    box-shadow 0.4s ease-in;
+}
+
+.watch-brand-list li {
+  background-color: #55695cd5;
+  color: #e0ddd7;
+}
+
+.watch-style-list li {
+  background-color: #c7bba2ef;
+  color: #485a4f;
+}
+.grid-block li:hover {
+  background: rgba(221, 221, 221, 0.8);
+  color: #7f8883;
+  box-shadow: 0px 5px 10px 0px rgb(68, 68, 68, 0.2);
+}
+
+/* --------------------------------------------------------------- */
+/* CONTACT FORM  */
+/* --------------------------------------------------------------- */
+
+.contact-form-container {
+  display: grid;
+  grid-template-rows: 3fr 7fr;
+  /* margin: 1rem 0 4rem 0; */
+  /* max-height: 100%; */
+
+  max-height: 100%;
+  width: 30vw;
+
+  justify-self: right;
+  background-color: #303b37;
+  background-color: #30363f;
+}
+
+.contact-form-img-box {
+  display: block;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  box-shadow: inset -10rem 5rem 10rem black;
+
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.1),
+      rgba(34, 34, 34, 0.1)
+    ),
+    url(../img/contact-form-img.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  /* height: 0; */
+}
+
+.contact-form-text-box {
+  padding: 3rem 5rem 5rem 5rem;
+}
+.contact-form-heading,
+.contact-form-subtext {
+  color: #f8d7ae;
+  font-family: Inter, sans-serif;
+}
+
+.contact-form-heading {
+  /* font-family: sans-serif; */
+  margin: 3.5rem 0 2rem 0;
+  font-size: 2rem;
+}
+
+.contact-form-subtext {
+  /* font-family: sans-serif; */
+  font-size: 1.6rem;
+  color: #fbefda;
+}
+
+.contact-form-subtext a {
+  display: block;
+  line-height: 0.5;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-form {
+  font-family: Inter, sans-serif;
+  color: #fbefda;
+  font-size: 1.4rem;
+  margin: 3rem 0;
+}
+
+/* .contact-form div {
+  margin: 2rem 0;
+  font-size: 1.4rem;
+} */
+
+.contact-form label {
+  margin: 2rem 0 0.5rem 0;
+  display: block;
+  color: #f8d7ae;
+
+  font-size: 1.4rem;
+  /* font-weight: bold; */
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #f4f1ece8;
+  box-shadow: 0rem 0.2rem 1rem #f8d7ae59;
+
+  font-family: inherit;
+  font-size: inherit;
+  color: #485a4f;
+}
+
+.contact-form input::placeholder,
+.contact-form select::placeholder,
+.contact-form textarea::placeholder {
+  color: #999;
+}
+
+.contact-form textarea {
+  height: 14rem;
+}
+
+.contact-form input[type="file"] {
+  padding: 0.8rem 0.7rem;
+}
+
+.contact-form button {
+  font-size: 1.4rem;
+  margin: 2.6rem 0;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #3d405b;
+
+  background-color: #f8d7ae;
+  background-color: #dfc58def;
+  background-color: #edc070;
+  transition: background 0.4s ease, color 0.4s ease;
+  box-shadow: 0rem 0.2rem 1rem #f8d7ae59;
+}
+
+.contact-form button:hover {
+  background-color: #e6a666;
+  color: #fbefda;
+}
+
+/* --------------------------------------------------------------- */
+/* FOOTER */
+/* --------------------------------------------------------------- */
+
+.footer {
+  padding: 10rem 0;
+  /* border-top: 1px solid #aaa; */
+  background-color: #f4f1ec;
+  font-size: 1.6rem;
+  font-family: DM Sans, sans-serif;
+  color: #888;
+}
+
+.footer .container {
+  margin-right: 5vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3em;
+}
+
+.footer-heading {
+  color: #485a4f;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.footer p {
+  padding: 0;
+}
+
+.footer .logo {
+  margin: 0;
+  padding: 0;
+  width: 11rem;
+  height: auto;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  justify-items: flex-start;
+}
+
+.social-icon {
+  height: 5rem;
+  width: 5rem;
+}
+
+.membership {
+  grid-column: 1/-1;
+}
+
+.membership .footer-heading {
+  font-size: 1.4rem;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.copyright {
+  grid-column: 1/-1;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #999;
+  margin-top: 1.5rem;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts p {
+  margin-bottom: 1.5rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-family: DM Sans, sans-serif;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
