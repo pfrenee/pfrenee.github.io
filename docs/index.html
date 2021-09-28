@@ -286,13 +286,14 @@
                   theluckyloupe@gmail.com</a
                 >
               </div>
-              <form class="contact-form" action="#">
+              <form class="contact-form" name="Customer Message" netlify>
                 <div>
                   <label for="name">Your Name </label>
                   <input
                     id="name"
                     type="text"
                     placeholder="John Smith"
+                    name="name"
                     required
                   />
                 </div>
@@ -303,13 +304,14 @@
                     id="email"
                     type="email"
                     placeholder="example@example.com"
+                    name="email"
                     required
                   />
                 </div>
 
                 <div>
                   <label for="subject">Subject</label>
-                  <select id="subject" required>
+                  <select id="subject" name="subject" required>
                     <option value="" selected disabled>
                       Please Select ...
                     </option>
@@ -322,14 +324,14 @@
                 </div>
                 <div>
                   <label for="msg">Message</label>
-                  <textarea type="text" id="msg"> </textarea>
+                  <textarea type="text" id="msg" name="message"> </textarea>
                 </div>
 
                 <div>
                   <label for="file">Upload File</label>
-                  <input id="file" type="file" />
+                  <input id="file" type="file" name="message" />
                 </div>
-                <button class="btn">Send</button>
+                <button class="btn" type="submit">Send</button>
               </form>
             </div>
           </div>
