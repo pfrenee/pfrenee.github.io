@@ -76,6 +76,10 @@
     margin-top: 20vh;
   }
 
+  .section-find-your-watch .container {
+    max-width: 90vw;
+  }
+
   /* Contact Form  */
   .section-sell-your-watch .container {
     display: block;
@@ -88,7 +92,7 @@
   }
 
   .contact-form-container {
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 4fr 5fr;
     width: 100%;
   }
 
@@ -103,7 +107,8 @@
   }
 
   .contact-form-tel:link,
-  .contact-form-email:link {
+  .contact-form-email:link,
+  .contact-form button {
     font-size: 1.8rem;
   }
 
