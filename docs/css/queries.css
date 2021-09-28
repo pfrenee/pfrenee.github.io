@@ -95,9 +95,27 @@
   .contact-form-text-box {
     padding: 10rem 25vw;
   }
-
   .contact-form-heading {
     font-size: 2.4rem;
+  }
+  .contact-form-subtext {
+    font-size: 2rem;
+  }
+
+  .contact-form-tel:link,
+  .contact-form-email:link {
+    font-size: 1.8rem;
+  }
+
+  .contact-form label {
+    font-size: 1.9rem;
+    /* font-weight: bold; */
+  }
+
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    font-size: 1.8rem;
   }
 
   .footer .container {
@@ -210,7 +228,7 @@
   }
 
   .main-heading {
-    font-size: 3.8rem;
+    font-size: 4.2rem;
     font-weight: 600;
   }
 
