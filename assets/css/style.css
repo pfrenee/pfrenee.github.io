@@ -100,7 +100,7 @@
   font-family: Nothing You Could Do;
   font-size: 2.4rem;
   color: rgba(251, 239, 218, 0.7);
-  font-weight: lighter;
+  font-weight: 400;
   padding: 1.6rem 0;
 }
 
@@ -174,7 +174,7 @@
   font-family: Cormorant SC, serif;
   font-size: 2.6rem;
   color: #2c5052;
-  font-weight: 800;
+  font-weight: 700;
 
   margin: 4rem 0 3rem 0;
 }
@@ -190,7 +190,7 @@
   flex-direction: column;
 
   font-size: 3.2rem;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .ll::after {
