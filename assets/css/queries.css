@@ -58,8 +58,8 @@
 @media (max-width: 59em) {
   html {
     /* font-size: 7px; */
-    /* font-size: 8px; */
     /* font-size: 43.75%; */
+    /* font-size: 8px; */
     font-size: 50%;
   }
 
@@ -77,7 +77,7 @@
   }
 
   .section-find-your-watch .container {
-    max-width: 90vw;
+    max-width: 85vw;
   }
 
   /* Contact Form  */
@@ -86,7 +86,7 @@
   }
 
   .sell-your-watch-left {
-    padding: 10rem 10vw;
+    padding: 10rem 10vw 3rem 10vw;
     width: 80vw auto;
     align-self: left;
   }
@@ -97,23 +97,23 @@
   }
 
   .contact-form-text-box {
-    padding: 10rem 25vw;
+    padding: 10rem 20vw;
   }
   .contact-form-heading {
-    font-size: 2.4rem;
+    font-size: 2.6rem;
   }
   .contact-form-subtext {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   .contact-form-tel:link,
-  .contact-form-email:link,
-  .contact-form button {
-    font-size: 1.8rem;
+  .contact-form-email:link {
+    font-size: 2rem;
   }
 
-  .contact-form label {
-    font-size: 1.9rem;
+  .contact-form label,
+  .contact-form button {
+    font-size: 2.1rem;
     /* font-weight: bold; */
   }
 
