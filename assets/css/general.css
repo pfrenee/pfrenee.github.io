@@ -88,6 +88,8 @@ Default: 0.5rem (hero-btn)
 html {
   /* font-size: 10px; */
   font-size: 62.5%;
+  font-size: 80%;
+
   overflow-x: hidden;
 }
 
@@ -150,7 +152,7 @@ p {
 .section-subtitle {
   /* Preset 1 */
   font-family: Inter, sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 400;
   color: #666;
   line-height: 1.6;
