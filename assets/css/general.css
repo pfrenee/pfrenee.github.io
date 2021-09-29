@@ -150,12 +150,11 @@ p {
 .section-subtitle {
   /* Preset 1 */
   font-family: Inter, sans-serif;
-  /* letter-spacing: -0.1rem; */
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 400;
   color: #666;
   line-height: 1.6;
-  letter-spacing: -0.02rem;
+  letter-spacing: -0.04rem;
 }
 
 .section-sell-your-watch {
