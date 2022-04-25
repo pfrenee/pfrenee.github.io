@@ -270,9 +270,17 @@
     row-gap: 10rem;
   }
 
+  .testimonial-container {
+    padding: 4rem 0rem 2rem 0;
+  }
+
   .grid--2-cols--2-rows {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+  }
+
+  .reviewer {
+    padding: 2rem 3rem 6rem 3rem;
   }
 }
 

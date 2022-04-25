@@ -169,7 +169,7 @@ p {
 }
 
 .testimonial-container {
-  padding: 4rem 0rem;
+  padding: 6rem 0rem 4rem 0;
 }
 
 .testimonial {
@@ -182,7 +182,7 @@ p {
   color: #fbefda;
   line-height: 1.6;
   letter-spacing: -0.04rem;
-  padding: 0rem 5rem;
+  padding: 0rem 3rem;
 }
 
 .reviewer {
@@ -195,7 +195,7 @@ p {
   color: #d7ae7b;
   line-height: 1;
   letter-spacing: -0.04rem;
-  padding: 2rem 5rem;
+  padding: 2rem 3rem;
 }
 
 .section-sell-your-watch {
