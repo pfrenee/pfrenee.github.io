@@ -140,6 +140,14 @@ p {
   text-align: center;
 }
 
+.section-testimonials {
+  /* background-color: #c7bba2; */
+  background-color: #3d405b;
+
+  padding: 10rem 0;
+  text-align: center;
+}
+
 .section-title {
   /* Preset 1 */
   font-family: Prata, serif;
@@ -158,6 +166,36 @@ p {
   color: #666;
   line-height: 1.6;
   letter-spacing: -0.04rem;
+}
+
+.testimonial-container {
+  padding: 4rem 0rem;
+}
+
+.testimonial {
+  /* Preset 1 */
+  font-family: Inter, sans-serif;
+  /* font-family: DM Sans, sans-serif; */
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #fbefda;
+  line-height: 1.6;
+  letter-spacing: -0.04rem;
+  padding: 0rem 5rem;
+}
+
+.reviewer {
+  font-family: Inter, sans-serif;
+  /* font-family: DM Sans, sans-serif; */
+  font-size: 2rem;
+  text-align: left;
+  font-weight: 400;
+  font-style: italic;
+  color: #d7ae7b;
+  line-height: 1;
+  letter-spacing: -0.04rem;
+  padding: 2rem 5rem;
 }
 
 .section-sell-your-watch {
@@ -193,5 +231,12 @@ p {
 .grid--4-cols {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 0.2rem;
+}
+
+.grid--2-cols--2-rows {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 0.2rem;
 }
